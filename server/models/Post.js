@@ -33,7 +33,7 @@ const PostSchema = new mongoose.Schema(
       required: true,
     },
     category: {
-      type: mongoose.Schema.Types.ObjectId,
+      type: String,
       ref: 'Category',
       required: true,
     },
